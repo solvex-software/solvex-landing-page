@@ -782,6 +782,10 @@ video {
   height: 100vh;
 }
 
+.h-\[100dvh\] {
+  height: 100dvh;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -1370,6 +1374,10 @@ video {
   padding-top: 2.0rem;
 }
 
+.pb-8 {
+  padding-bottom: 2rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -1580,6 +1588,11 @@ video {
 }
 
 @media (min-width: 450px) {
+  .xs\:py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
   .xs\:pb-8 {
     padding-bottom: 2rem;
   }
