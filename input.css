@@ -23,6 +23,10 @@
   min-width: 300px;
 }
 
+.process-flow-text {
+  min-width: 32rem;
+}
+
 @media screen and (max-width: 480px) {
   /* .competition-card {
     min-width: 300px;
@@ -31,6 +35,10 @@
   .competition-padding {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+  .process-flow-text {
+    min-width: 24rem;
   }
 }
 
@@ -42,5 +50,9 @@
   .competition-padding {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+  .process-flow-text {
+    min-width: 16rem;
   }
 }

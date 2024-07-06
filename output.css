@@ -782,14 +782,6 @@ video {
   height: 100vh;
 }
 
-.h-\[20px\] {
-  height: 20px;
-}
-
-.h-\[40px\] {
-  height: 40px;
-}
-
 .w-10 {
   width: 2.5rem;
 }
@@ -822,6 +814,10 @@ video {
   width: 18rem;
 }
 
+.w-\[20\.0rem\] {
+  width: 20.0rem;
+}
+
 .w-\[24\.0rem\] {
   width: 24.0rem;
 }
@@ -832,6 +828,10 @@ video {
 
 .w-\[30\.0rem\] {
   width: 30.0rem;
+}
+
+.w-\[32\.0rem\] {
+  width: 32.0rem;
 }
 
 .w-\[5\.0rem\] {
@@ -849,14 +849,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[20px\] {
-  width: 20px;
-}
-
-.w-\[40px\] {
-  width: 40px;
 }
 
 .min-w-full {
@@ -979,6 +971,10 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+
+.overflow-auto {
+  overflow: auto;
 }
 
 .overflow-hidden {
@@ -1552,6 +1548,10 @@ video {
   min-width: 300px;
 }
 
+.process-flow-text {
+  min-width: 32rem;
+}
+
 @media screen and (max-width: 480px) {
   /* .competition-card {
     min-width: 300px;
@@ -1560,6 +1560,10 @@ video {
   .competition-padding {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+  .process-flow-text {
+    min-width: 24rem;
   }
 }
 
@@ -1571,6 +1575,10 @@ video {
   .competition-padding {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+  .process-flow-text {
+    min-width: 16rem;
   }
 }
 
@@ -1605,6 +1613,10 @@ video {
 
   .sm\:w-\[30\.0rem\] {
     width: 30.0rem;
+  }
+
+  .sm\:w-\[32\.0rem\] {
+    width: 32.0rem;
   }
 
   .sm\:content-center {
@@ -1671,6 +1683,10 @@ video {
 
   .md\:w-\[30\.0rem\] {
     width: 30.0rem;
+  }
+
+  .md\:w-\[32\.0rem\] {
+    width: 32.0rem;
   }
 
   .md\:max-w-\[50rem\] {
