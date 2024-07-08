@@ -1,1 +1,0 @@
-# solvex-landing-page
